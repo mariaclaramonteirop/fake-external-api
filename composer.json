@@ -1,0 +1,13 @@
+{
+    "name": "mariaclaramonteiro/fake-external-api",
+    "description": "API externa simulada para integração com Craft CMS",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakeExternalApi\\": "src/"
+        }
+    }
+}
